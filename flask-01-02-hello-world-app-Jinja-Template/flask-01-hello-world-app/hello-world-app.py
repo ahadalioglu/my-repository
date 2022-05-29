@@ -1,24 +1,22 @@
-from flask import Flask 
+from flask import Flask
 
 app = Flask(__name__)
 
-@app.route("/")
-def head():
-    return "<h1>Hello World!</h1>"
+@app.route('/')
+def hello():
+    return 'Hello World'
 
-
-@app.route("/second")
+@app.route('/second')
 def second():
-    return "This is my second page"
+    return 'This is the second page'
 
-@app.route("/third/subthird")
+@app.route('/third/subthird')
 def third():
-    return "<h2>This is the subpath of third page</h2>"
+    return 'This is the subpage of third page'
 
-@app.route("/forth/<string:id>")
+@app.route('/forth/<string:id>')
 def forth(id):
-    return f'Id of this page is {id}'
-
+    return f'ID of this page is {id}'
 
 if __name__ == "__main__":
     app.run(debug=True)
