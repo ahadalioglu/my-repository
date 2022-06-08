@@ -1,0 +1,297 @@
+ls
+cat asdf
+ls
+sudo yum update -y
+whoami
+yum update -y
+export PS1="\e[1;35m[\u@\h \W]$ \e[0m"
+sudo yum install -y mariadb-server
+systemctl status mariadb-server
+systemctl status mariadb
+systemctl start mariadb
+sudo systemctl start mariadb
+systemctl status mariadb
+sudo systemctl enable mariadb
+systemctl status mariadb
+export PS1="\e[1;31m[\u@\h \W]$ \e[0m"
+mysql -u root
+sudo mysql_secure_installation 
+mysql -u root
+mysql -u root -p
+mysql -u clarususer -p
+sudo mysql_secure_installation 
+mysql -u clarususer -p
+sudo mysql_secure_installation 
+mysql -u clarususer -p
+sudo mysql_secure_installation 
+export PS1=“\`if [ \$? = 0 ]; then echo :rainbow:; else echo :fire:; fi\`\[\e[m\]-\[\e[35m\]\u\[\e[m\]@\[\e[32m\]\h:\[\e[36m\]\w\[\e[33m\]\$ ”
+ci .bashrc 
+sudo vi .bashrc 
+bash
+sudo vi .bashrc 
+bash
+sudo vi .bashrc 
+bash
+sudo vi .bashrc 
+bash
+sudo vi .bashrc 
+bash
+sudo vi .bashrc 
+bash
+sudo vi .bashrc 
+sudo mysql_secure_installation 
+mysql -u clarususer -p
+sudo yum update -y
+git --version
+sudo yum install git
+git --version
+git --configure -user-name ahad.mammadov
+git --configure --user-name ahad.mammadov
+git --configure --user-name "ahad mammadov"
+cat /etc/os-release 
+cat /etc/issue
+cat /etc/ | grep -v '/$'
+ls /etc/ | grep -v '/$'
+cat /etc/bashrc 
+ls /etc/ | grep -v '/$'| less
+cat /etc/yum
+cat /etc/yum.conf 
+cat /etc/image-id 
+cat /etc/machine-id 
+git clone https://github.com/serdarcw/linux_project.git
+ls
+cd linux_project/
+ls
+cd First_Part/
+awk {print $1} event_history.csv 
+awk '{print $1}' event_history.csv 
+awk -F ' ' '{print $1}' event_history.csv 
+awk -F ' ' '{print $1}' event_history.csv | less
+cut -d, -f1
+cut -d, -f1 event_history.csv 
+cat event_history.csv | grep -i serda
+cat event_history.csv | grep -i serdar | grep terminated
+cat event_history.csv | grep -i serdar | grep -i terminate
+cat event_history.csv | grep -i serdar | grep -i terminate | wc -l
+cat event_history.csv | grep -i serdar | grep -i terminate
+cat event_history.csv | grep -i serdar | grep -i terminate | grep "i-
+cat event_history.csv | grep -i serdar | grep -i terminate | grep "i-"
+cat event_history.csv | grep -i serdar | grep -i terminate | egrep "i-[a-z0-9]+""
+cat event_history.csv | grep -i serdar | grep -i terminate | egrep "i-[a-z0-9]+\""
+cat event_history.csv | grep -i serdar | grep -i terminate | egrep "i-[a-z0-9]+"
+cat event_history.csv | grep -i serdar | grep -i terminate | egrep "i-[a-z0-9]+" -s
+cat event_history.csv | grep -i serdar | grep -i terminate | egrep "i-[a-z0-9]+" -e
+cat event_history.csv | grep -i serdar | grep -i terminate | egrep "i-[a-z0-9]+" 
+grep --help
+cat event_history.csv | grep -i serdar | grep -i terminate | egrep "i-[a-z0-9]+" -o
+cat event_history.csv | grep -i serdar | grep -i terminate | egrep "i-[a-z0-9]+" -o > results.txt
+cat results.txt 
+cat event_history.csv | grep -i serdar | grep -i terminate | egrep -io "i-[a-z0-9]+" > results.txt
+cat results.txt 
+cd ../Second_Part/
+ls
+cat user_passwd.sh 
+vi user_passwd.sh 
+passwd --help
+vi user_passwd.sh 
+chmod +x user_passwd.sh 
+./user_passwd.sh 
+passwd --help
+vi user_passwd.sh 
+cat linux_project/Second_Part/user_passwd.sh 
+if test ${UID} != 0; then echo "Please run the script with sudo"; exit 1
+cd linux_project/Third_Part/
+vi backup.sh 
+mkdir data
+date +'h:m'
+date +'%h:%m'
+date +'%H:%m'
+date +'%H:%M'
+date +'%H:%M'vi backup.sh 
+vi backup.sh 
+mkdir /mnt/backup
+sudo mkdir /mnt/backup
+ls /mnt/
+vi backup.sh 
+touch data/test.txt
+ls /etc/
+tar -czf myetc.tgz 
+ls -l
+ls -lh
+ls /proc
+ls /opt
+du /opt/
+chmod 755 backup.sh 
+./backup.sh 
+sudo ./backup.sh 
+ls -l /mnt/
+ls -l /mnt/backup/
+vi backup.sh 
+sudo ./backup.sh 
+ls data/
+mv data/ ~
+vi backup.sh 
+./backup.sh 
+sudo ./backup.sh 
+./backup.sh 
+vi backup.sh 
+sudo ./backup.sh 
+hostname
+hostname -s
+hostname -f
+hostname -dnsserver
+hostname -A
+hostname -s
+vi backup.sh 
+sudo ./backup.sh 
+tar -tf /mnt/backup/20220607_0629_PM.tgz 
+vi backup.sh 
+sudo ./backup.sh 
+crontab -e
+pwd
+crontab -e
+ls
+crontab -l
+watch -n5 ls -lh /mnt/backup/
+crontab -l
+crontab -e
+watch -n5 ls -lh /mnt/backup/
+crontab -e
+watch -n5 ls -lh /mnt/backup/
+ls -lh /mnt/backup/
+crontab -e
+ls -lh /mnt/backup/
+watch -n1 ls -lh /mnt/backup/
+sudo bash /home/ec2-user/linux_project/Third_Part/backup.sh 
+crontab -e
+watch -n1 ls -lh /mnt/backup/
+crontab -e
+watch -n1 ls -lh /mnt/backup/
+crontab -e
+vi backup.sh 
+sudo ./backup.sh 
+vi backup.sh 
+cd
+cd data/
+touch files{1..10}
+ls
+ln -s cd ..
+cd ..
+ln -s linux_project/Third_Part/backup.sh bckp
+./bckp 
+sudo ./bckp 
+rm -rf data/
+cd / && tar -xzf /mnt/backup/ip-172-31-26-84_20220607_0147_PM.tgz 
+cd
+ls data/
+rm -rf data/
+tar -xzf /mnt/backup/ip-172-31-26-84_20220607_0147_PM.tgz -C /
+ls data/
+cd data/
+tar -xzf /mnt/backup/ip-172-31-26-84_20220607_0147_PM.tgz
+ll
+ip a
+cd
+ls linux_project/Third_Part/
+cd linux_project/Third_Part/
+ls -l
+rm -rf 18*
+rm -rf myetc.tgz 
+cd
+cd linux_project/Forth_Part/Task_1/
+grep Private *.js
+l
+grep Private info.json 
+grep PrivateIpAddress info.json 
+grep PrivateIpAddress info.json -A1
+grep PrivateIpAddress info.json -B1
+grep PrivateIpAddress info.json | head -1 
+grep PrivateIpAddress info.json | head -1 | cut -d" -f4
+grep PrivateIpAddress info.json | head -1 | cut -d'"' -f4
+ip=$(grep PrivateIpAddress info.json | head -1 | cut -d'"' -f4)
+echo $ip
+ip=`grep PrivateIpAddress info.json | head -1 | cut -d'"' -f4`
+echo $ip
+cat terraform.tf | grep kuber
+cat terraform.tf | sed 's/ec2-private_ip/${ip}/'
+cat terraform.tf | sed 's/ec2-private_ip/$ip/'
+cat terraform.tf | sed 's/ec2-private_ip/\$ip/'
+cat terraform.tf | sed 's/ec2-private_ip/\$\{ip\}/'
+cat terraform.tf | sed 's/ec2-private_ip/$ip}/'
+cat terraform.tf | sed 's/ec2-private_ip/\$ip}/'
+cat terraform.tf | sed "s/ec2-private_ip/$ip}/"
+cat terraform.tf | sed "s/ec2-private_ip/$ip/"
+sed "s/ec2-private_ip/$ip/" terraform.tf 
+sed "s/ec2-private_ip/$ip/" terraform.tf -i
+cat terraform.tf | grep kub
+history
+cd ../Task_2
+cat certificate.pem 
+echo `cat certificate.pem`
+echo `cat certificate.pem` -e
+echo -n `cat certificate.pem`
+echo -e `cat certificate.pem`
+echo -e `cat certificate.pem` > new.pem
+cd ../Task_3/
+cat auth.log | grep Failed
+cat auth.log | grep -i invalid
+cat auth.log | grep -i invalid | less
+cat auth.log | grep -i "invalid user" | less
+cat auth.log | grep -i ": invalid user"
+cat auth.log | grep ": invalid user"
+cat auth.log | grep ": invalid user" -c
+cat auth.log | grep ": invalid user" | sort
+cat auth.log | grep ": invalid user" | sort -k9
+cat auth.log | grep ": invalid user" | cut -d' ' -f 9
+cat auth.log | grep ": invalid user" | cut -d' ' -f 9 | uniq -c
+cat auth.log | grep ": invalid user" | cut -d' ' -f 9 | uniq -c | sort -k2
+cat auth.log | grep ": invalid user" | cut -d' ' -f 9 | uniq -c | sort -k
+cat auth.log | grep ": invalid user" | cut -d' ' -f 9 | uniq -c | sort -k1
+cat auth.log | grep ": invalid user" -c
+cat auth.log | grep ": invalid user"
+cat auth.log | grep ": invalid user" | grep "user user"
+cat auth.log | grep ": invalid user" | sort -k9
+cat auth.log | grep ": invalid user" | cut -d' ' -f 9 | uniq -c
+cat auth.log | grep ": invalid user" | cut -d' ' -f 9 | uniq
+cat auth.log | grep ": invalid user" | cut -d' ' -f 9 
+cat auth.log | grep ": invalid user" | cut -d' ' -f 9,10 | uniq
+cat auth.log | grep ": invalid user" | cut -d'[:space:]' -f 9,10 | uniq
+cat auth.log | grep ": invalid user" | cut -d'' -f ,10 | uniq
+cat auth.log | grep ": invalid user" | cut -d'' -f ,10
+cat auth.log | grep ": invalid user" | cut -d' ' -f ,10
+cat auth.log | grep ": invalid user" | cut -d' ' -f -10
+cat auth.log | grep ": invalid user"
+cat auth.log | grep ": invalid user" | cut -d: -f3 | cut -d' ' -f 3 | uniq -c
+cat auth.log | grep ": invalid user" | cut -d: -f3 
+cat auth.log | grep ": invalid user" | cut -d: -f4 
+cat auth.log | grep ": invalid user" | cut -d: -f5
+cat auth.log | grep ": invalid user" | cut -d: -f5 | cut -d' ' -f 3 | uniq -c
+cat auth.log | grep ": invalid user" | cut -d: -f5 | cut -d' ' -f 4 | uniq -c
+cat auth.log | grep ": invalid user" | cut -d: -f5 | cut -d' ' -f 4 | uniq -c | sort -k2
+cat auth.log | grep ": invalid user" | cut -d: -f5 | cut -d' ' -f 4 | uniq -c
+cat auth.log | grep ": invalid user" | cut -d: -f5 | cut -d' ' -f 4 | uniq -c | wc -l
+cat auth.log | grep ": invalid user" | cut -d: -f5 | cut -d' ' -f 4 | uniq -c | sort -k2 | wc -l
+cat auth.log | grep ": invalid user" | cut -d: -f5 | cut -d' ' -f 4 | uniq -c | sort -k1
+cat auth.log | grep ": invalid user" | cut -d: -f5 | cut -d' ' -f 4 | uniq -c | sort -k1 -n
+cat auth.log | grep ": invalid user" | grep test
+cat auth.log | grep ": invalid user" | cut -d: -f5 | cut -d' ' -f 4 |
+cat auth.log | grep ": invalid user" | cut -d: -f5 | cut -d' ' -f 4 
+cat auth.log | grep ": invalid user" | cut -d: -f5 | cut -d' ' -f 4 | sort
+cat auth.log | grep ": invalid user" | cut -d: -f5 | cut -d' ' -f 4 | sort | uniq -c
+cat auth.log | grep ": invalid user" | cut -d: -f5 | cut -d' ' -f 4 | sort | uniq -c | sort -rnk 1
+msql
+cat auth.log | grep -Eio ": invalid user"
+cat auth.log | grep -Eio ": invalid user.+"
+cat auth.log | grep ": invalid user"  cut -d: -f5 | cut -d' ' -f 4 | sort | uniq -c | sort -rnk 1
+cat auth.log | grep ": invalid user.+"
+cat auth.log | grep -E ": invalid user.+"
+cat auth.log | grep -Eo ": invalid user.+"
+cat auth.log | grep -Eo "invalid user.+"
+cat auth.log | grep -Eoi "invalid user.+"
+cat auth.log | grep -Eo "invalid user.+"
+cat auth.log | grep -Eoi "invalid user.+"
+cat auth.log | grep -Eo "invalid user.+"
+cat auth.log | grep -Eo ": invalid user.+"
+cat auth.log | grep -Eo ": invalid user.+" | cut -d' ' -f4
+cat auth.log | grep -Eo ": invalid user.+" | cut -d' ' -f4 | sort | uniq -c
+cat auth.log | grep -Eo ": invalid user.+" | cut -d' ' -f4 | sort | uniq -c | sort -rnk1

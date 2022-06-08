@@ -1,0 +1,100 @@
+ls
+cat asdf
+ls
+sudo yum update -y
+whoami
+yum update -y
+export PS1="\e[1;35m[\u@\h \W]$ \e[0m"
+sudo yum install -y mariadb-server
+systemctl status mariadb-server
+systemctl status mariadb
+systemctl start mariadb
+sudo systemctl start mariadb
+systemctl status mariadb
+sudo systemctl enable mariadb
+systemctl status mariadb
+export PS1="\e[1;31m[\u@\h \W]$ \e[0m"
+mysql -u root
+sudo mysql_secure_installation 
+mysql -u root
+mysql -u root -p
+mysql -u clarususer -p
+sudo mysql_secure_installation 
+mysql -u clarususer -p
+sudo mysql_secure_installation 
+mysql -u clarususer -p
+sudo mysql_secure_installation 
+export PS1=“\`if [ \$? = 0 ]; then echo :rainbow:; else echo :fire:; fi\`\[\e[m\]-\[\e[35m\]\u\[\e[m\]@\[\e[32m\]\h:\[\e[36m\]\w\[\e[33m\]\$ ”
+ci .bashrc 
+sudo vi .bashrc 
+bash
+sudo vi .bashrc 
+bash
+sudo vi .bashrc 
+bash
+sudo vi .bashrc 
+bash
+sudo vi .bashrc 
+bash
+sudo vi .bashrc 
+bash
+sudo vi .bashrc 
+sudo mysql_secure_installation 
+mysql -u clarususer -p
+sudo yum update -y
+git --version
+sudo yum install git
+git --version
+git --configure -user-name ahad.mammadov
+git --configure --user-name ahad.mammadov
+git --configure --user-name "ahad mammadov"
+cat /etc/os-release 
+cat /etc/issue
+cat /etc/ | grep -v '/$'
+ls /etc/ | grep -v '/$'
+cat /etc/bashrc 
+ls /etc/ | grep -v '/$'| less
+cat /etc/yum
+cat /etc/yum.conf 
+cat /etc/image-id 
+cat /etc/machine-id 
+git clone https://github.com/serdarcw/linux_project.git
+ls
+cd linux_project/
+ls
+cd First_Part/
+awk {print $1} event_history.csv 
+awk '{print $1}' event_history.csv 
+awk -F ' ' '{print $1}' event_history.csv 
+awk -F ' ' '{print $1}' event_history.csv | less
+cut -d, -f1
+cut -d, -f1 event_history.csv 
+cat event_history.csv | grep -i serda
+cat event_history.csv | grep -i serdar | grep terminated
+cat event_history.csv | grep -i serdar | grep -i terminate
+cat event_history.csv | grep -i serdar | grep -i terminate | wc -l
+cat event_history.csv | grep -i serdar | grep -i terminate
+cat event_history.csv | grep -i serdar | grep -i terminate | grep "i-
+cat event_history.csv | grep -i serdar | grep -i terminate | grep "i-"
+cat event_history.csv | grep -i serdar | grep -i terminate | egrep "i-[a-z0-9]+""
+cat event_history.csv | grep -i serdar | grep -i terminate | egrep "i-[a-z0-9]+\""
+cat event_history.csv | grep -i serdar | grep -i terminate | egrep "i-[a-z0-9]+"
+cat event_history.csv | grep -i serdar | grep -i terminate | egrep "i-[a-z0-9]+" -s
+cat event_history.csv | grep -i serdar | grep -i terminate | egrep "i-[a-z0-9]+" -e
+cat event_history.csv | grep -i serdar | grep -i terminate | egrep "i-[a-z0-9]+" 
+grep --help
+cat event_history.csv | grep -i serdar | grep -i terminate | egrep "i-[a-z0-9]+" -o
+cat event_history.csv | grep -i serdar | grep -i terminate | egrep "i-[a-z0-9]+" -o > results.txt
+cat results.txt 
+cat event_history.csv | grep -i serdar | grep -i terminate | egrep -io "i-[a-z0-9]+" > results.txt
+cat results.txt 
+cd ../Second_Part/
+ls
+cat user_passwd.sh 
+vi user_passwd.sh 
+passwd --help
+vi user_passwd.sh 
+chmod +x user_passwd.sh 
+./user_passwd.sh 
+passwd --help
+vi user_passwd.sh 
